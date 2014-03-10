@@ -14,7 +14,7 @@ import qualified Diagrams.Backend.SVG as SVG
 
 -- test       
 import Music.Prelude.Basic
-import Control.Lens hiding (perform)
+import Control.Lens
 import System.Process
 import Text.Blaze.Svg.Renderer.Utf8 (renderSvg)
 import qualified Data.ByteString.Lazy as ByteString
@@ -28,7 +28,7 @@ pitchToDouble :: Music.Pitch.Pitch -> Double
 pitchToDouble = realToFrac . semitones . (.-. c)
 
 draw :: (Renderable (Path R2) b, Real a) => Score a -> Diagram b R2
-draw = bg whitesmoke . scaleX 20{-TODO-} . mconcat . fmap drawNote . fmap (map1 timeToDouble . map2 durationToDouble . map3 realToFrac) . perform
+draw = bg whitesmoke . scaleX 20{-TODO-} . mconcat . fmap drawNote . fmap (map1 timeToDouble . map2 durationToDouble . map3 realToFrac) . (^. events)
     where
         map1 f (a,b,c) = (f a,b,c)
         map2 f (a,b,c) = (a,f b,c)
