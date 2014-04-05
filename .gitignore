@@ -4,3 +4,4 @@ dist
 *.xml
 *.mid
 *.wav
+cabal.sandbox.config
