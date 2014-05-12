@@ -1,7 +1,7 @@
 
-# foobar
+# music-graphics
 
-Description.
+Graphical rendering of musical objects (experimental).
 
 ## Requirements
 
