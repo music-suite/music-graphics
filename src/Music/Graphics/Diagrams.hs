@@ -7,17 +7,17 @@ module Music.Graphics.Diagrams (
         -- openGraphic
 ) where
 
-import Music.Score
-import Music.Pitch
-import Diagrams.Prelude hiding (Time, Duration)
-import qualified Diagrams.Backend.SVG as SVG
-
--- test       
-import Music.Prelude.Basic
-import Control.Lens
-import System.Process
-import Text.Blaze.Svg.Renderer.Utf8 (renderSvg)
-import qualified Data.ByteString.Lazy as ByteString
+-- import Music.Score
+-- import Music.Pitch
+-- import Diagrams.Prelude hiding (Time, Duration)
+-- import qualified Diagrams.Backend.SVG as SVG
+-- 
+-- -- test       
+-- import Music.Prelude.Basic
+-- import Control.Lens
+-- import System.Process
+-- import Text.Blaze.Svg.Renderer.Utf8 (renderSvg)
+-- import qualified Data.ByteString.Lazy as ByteString
 -- 
 -- 
 -- timeToDouble :: Time -> Double
