@@ -22,9 +22,8 @@ library
     build-depends:
                         base                    >= 4 && < 5,
                         aeson                   >= 0.7.0.6 && < 1,
-                        lens				            >= 4.2 && < 4.3,
-                        diagrams-core           >= 0.6,
-                        diagrams-svg            >= 0.6,
+                        lens				            >= 4.3 && < 4.4,
+                        diagrams-svg            >= 1.1 && < 2,
                         bytestring,
                         blaze-svg,
                         process                 >= 1.2 && < 1.3,
