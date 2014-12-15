@@ -1,6 +1,6 @@
 
 name:                   music-graphics
-version:                1.8
+version:                1.8.1
 author:                 Hans Hoglund
 maintainer:             Hans Hoglund <hans@hanshoglund.se>
 license:                BSD3
@@ -27,9 +27,9 @@ library
                         bytestring,
                         blaze-svg,
                         process                 >= 1.2 && < 1.3,
-                        music-preludes          == 1.8,
-                        music-score             == 1.8,
-                        music-pitch             == 1.8
+                        music-preludes          == 1.8.1,
+                        music-score             == 1.8.1,
+                        music-pitch             == 1.8.1
     exposed-modules:    Music.Graphics
                         Music.Graphics.Diagrams
     hs-source-dirs:     src
