@@ -12,7 +12,7 @@ build-type:             Simple
 cabal-version:          >= 1.10
 
 description:
-    To be written.
+    DEPRECATED
 
 source-repository head
     type:               git

@@ -1,5 +1,5 @@
 
-# music-graphics
+# DEPRECATED music-graphics
 
 Graphical rendering of musical objects (experimental).
 
